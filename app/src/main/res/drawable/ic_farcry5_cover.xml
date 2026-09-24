@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="240dp"
+    android:viewportWidth="180"
+    android:viewportHeight="240">
+
+    <!-- 1. Sky Background (Bright Blue Hope County Sky) -->
+    <path
+        android:fillColor="#4D8DE4"
+        android:pathData="M0,0 h180 v240 h-180 z" />
+
+    <path
+        android:fillColor="#70A8F0"
+        android:pathData="M0,0 h180 v100 h-180 z" />
+
+    <!-- Puffy White Clouds -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M-10,25 Q15,10 40,25 Q65,5 90,20 Q120,0 150,22 Q170,12 190,28 L190,60 L-10,60 Z" />
+    <path
+        android:fillColor="#EAF2FC"
+        android:pathData="M10,35 Q35,22 60,35 Q85,18 110,32 Q135,15 160,35 L190,40 L190,65 L-10,65 Z" />
+
+    <!-- Planes in Sky -->
+    <path
+        android:fillColor="#FBC02D"
+        android:pathData="M152,48 L162,45 L158,47 L164,49 Z" />
+
+    <!-- 2. Logo FAR CRY 5 (White Title + 5 Stars) -->
+    <!-- F -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,20 h12 v4 h-8 v4 h6 v4 h-6 v8 h-4 z" />
+    <!-- A -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,20 h10 v20 h-4 v-7 h-3 v7 h-3 z M39,24 h3 v5 h-3 z" />
+    <!-- R -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,20 h10 v10 h-3 l4,10 h-4 l-4,-9 h-3 v9 h-3 z M51,23 h4 v4 h-4 z" />
+
+    <!-- C -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,20 h12 v4 h-8 v12 h8 v4 h-12 z" />
+    <!-- R -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M89,20 h10 v10 h-3 l4,10 h-4 l-4,-9 h-3 v9 h-3 z M92,23 h4 v4 h-4 z" />
+    <!-- Y -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M101,20 h4 l3,8 l3,-8 h4 l-5,11 v9 h-4 v-9 z" />
+
+    <!-- Big 5 (White with Red Accent) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M117,20 h15 v4 h-10 v4 h8 c3,0 5,2 5,5 v3 c0,3 -2,5 -5,5 h-13 v-4 h12 v-5 h-12 z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M130,22 h2 v2 h-2 z" />
+
+    <!-- 5 White Stars below Title -->
+    <!-- Star 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,42 L53.5,45 L57,45 L54,47 L55,50 L52,48 L49,50 L50,47 L47,45 L50.5,45 Z" />
+    <!-- Star 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,42 L68.5,45 L72,45 L69,47 L70,50 L67,48 L64,50 L65,47 L62,45 L65.5,45 Z" />
+    <!-- Star 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M82,42 L83.5,45 L87,45 L84,47 L85,50 L82,48 L79,50 L80,47 L77,45 L80.5,45 Z" />
+    <!-- Star 4 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M97,42 L98.5,45 L102,45 L99,47 L100,50 L97,48 L94,50 L95,47 L92,45 L95.5,45 Z" />
+    <!-- Star 5 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M112,42 L113.5,45 L117,45 L114,47 L115,50 L112,48 L109,50 L110,47 L107,45 L110.5,45 Z" />
+
+    <!-- 3. Mountains & Landscape (Hope County Valley) -->
+    <!-- Snow-capped Mountains -->
+    <path
+        android:fillColor="#3A5880"
+        android:pathData="M-10,105 L20,70 L55,95 L90,65 L125,90 L160,60 L190,95 L190,130 L-10,130 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,70 L26,80 L14,80 Z M90,65 L98,78 L82,78 Z M160,60 L168,74 L152,74 Z" />
+
+    <!-- Green Hills and Fields -->
+    <path
+        android:fillColor="#4E7A27"
+        android:pathData="M-10,110 Q30,90 70,105 Q120,85 190,105 L190,145 L-10,145 Z" />
+    <path
+        android:fillColor="#36541A"
+        android:pathData="M-10,120 Q40,105 90,120 Q140,100 190,118 L190,150 L-10,150 Z" />
+
+    <!-- White Church on Left -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M12,100 h16 v25 h-16 z M17,80 h6 v20 h-6 z M20,72 L20,80 M17,75 h6"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#555555"
+        android:pathData="M10,100 L20,90 L30,100 Z M15,80 L20,72 L25,80 Z" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M8,112 h8 v13 h-8 z" />
+
+    <!-- Burning Barn / Fire & Smoke on Right -->
+    <path
+        android:fillColor="#776666"
+        android:pathData="M150,110 Q160,95 170,80 Q180,95 175,115 Z" />
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M155,118 L163,105 L171,118 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M158,118 L163,110 L168,118 Z" />
+
+    <!-- 4. "The Last Supper" Table & Cult Members Scene -->
+    <!-- Table Base / Structure -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M0,155 h180 v85 h-180 z" />
+
+    <!-- American Flag Table Runner -->
+    <!-- Blue Star Field (Left Side) -->
+    <path
+        android:fillColor="#152B52"
+        android:pathData="M10,150 h80 v50 h-80 z" />
+
+    <!-- Cross/Star Pattern on Blue Field -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,160 h4 v4 h-4 z M45,160 h4 v4 h-4 z M65,160 h4 v4 h-4 z M35,170 h4 v4 h-4 z M55,170 h4 v4 h-4 z M75,170 h4 v4 h-4 z M25,180 h4 v4 h-4 z M45,180 h4 v4 h-4 z M65,180 h4 v4 h-4 z" />
+
+    <!-- Red & White Stripes (Right Side) -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M90,150 h90 v50 h-90 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,157 h90 v7 h-90 z M90,171 h90 v7 h-90 z M90,185 h90 v7 h-90 z" />
+
+    <!-- Cult Figures Around Table -->
+    <!-- Left Cultist (Jacob / John) -->
+    <path
+        android:fillColor="#2D1E18"
+        android:pathData="M10,125 Q20,115 30,125 L35,152 L5,152 Z" />
+    <path
+        android:fillColor="#D4A373"
+        android:pathData="M20,118m-5,0a5,5 0 1,1 10,0a5,5 0 1,1 -10,0" />
+
+    <path
+        android:fillColor="#4A3B32"
+        android:pathData="M32,122 Q42,110 52,122 L60,152 L28,152 Z" />
+    <path
+        android:fillColor="#E0A96D"
+        android:pathData="M42,114m-5,0a5,5 0 1,1 10,0a5,5 0 1,1 -10,0" />
+
+    <!-- Joseph Seed (The Father - Center Figure) -->
+    <!-- Body & Vest -->
+    <path
+        android:fillColor="#EDEDED"
+        android:pathData="M72,118 L108,118 L114,152 L66,152 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M76,120 L84,152 H96 L104,120 Z" />
+    <!-- Head & Beard -->
+    <path
+        android:fillColor="#D4A373"
+        android:pathData="M90,108m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M84,108 Q90,120 96,108 Z" />
+    <!-- Yellow Aviator Glasses -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M85,106 h4 v3 h-4 z M91,106 h4 v3 h-4 z" />
+    <!-- Extended Open Arms -->
+    <path
+        android:fillColor="#D4A373"
+        android:pathData="M66,125 L52,135 L56,138 L70,128 Z M114,125 L128,135 L124,138 L110,128 Z" />
+
+    <!-- Right Cultists & Faith in White Dress -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,120 Q140,110 150,120 L155,152 L125,152 Z" />
+    <path
+        android:fillColor="#F5C6A5"
+        android:pathData="M140,112m-5,0a5,5 0 1,1 10,0a5,5 0 1,1 -10,0" />
+
+    <!-- White Wolf on Right -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M152,130 Q165,120 178,135 L180,152 L148,152 Z" />
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M162,126 L165,122 L168,126 Z" />
+
+    <!-- Open Bible & Goblet on Table in front of Joseph -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M82,148 L90,146 L98,148 L98,152 L90,150 L82,152 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M74,146 L78,146 L77,152 L75,152 Z" />
+
+    <!-- 5. Foreground Elements -->
+    <!-- Tied Sinner (Bottom Left Kneeling) -->
+    <path
+        android:fillColor="#C68B59"
+        android:pathData="M12,185 Q22,170 35,182 L42,220 L8,220 Z" />
+    <!-- "SINNER" Inscription on Back -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M18,190 h16 v2 h-16 z M22,194 h8 v2 h-8 z" />
+    <!-- Tied Rope on Wrists -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M10,210 h10 v4 h-10 z" />
+
+    <!-- Ammo Crates & Weapons (Bottom Right) -->
+    <path
+        android:fillColor="#3B4A26"
+        android:pathData="M135,190 h40 v35 h-40 z" />
+    <path
+        android:fillColor="#222222"
+        android:pathData="M130,185 L145,235 M150,180 L160,235"
+        android:strokeColor="#111111"
+        android:strokeWidth="3" />
+
+    <!-- Compound Bow Leaning against Table -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#222222"
+        android:strokeWidth="2"
+        android:pathData="M122,160 Q115,190 125,225" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1"
+        android:pathData="M122,160 L125,225" />
+
+</vector>

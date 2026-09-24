@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GamerZone</string>
+    <string name="action_settings">Configurações</string>
+    <string name="first_fragment_label">GamerZone</string>
+    <string name="second_fragment_label">Detalhes</string>
+    <string name="gamezone_logo_desc">Logo da marca GameZone</string>
+    <string name="game_name">Far Cry 5</string>
+    <string name="game_cover_desc">Capa do jogo Far Cry 5</string>
+    <string name="age_rating_desc">Selo de classificação etária 18 anos</string>
+    <string name="select_platform">Selecione a plataforma:</string>
+    <string name="platform_pc">PC</string>
+    <string name="platform_playstation">PlayStation</string>
+    <string name="platform_xbox">Xbox</string>
+    <string name="promo_notifications">Receber notificações de promoções</string>
+</resources>

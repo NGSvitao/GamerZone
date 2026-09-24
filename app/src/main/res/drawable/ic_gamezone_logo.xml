@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="85dp"
+    android:viewportWidth="260"
+    android:viewportHeight="110">
+
+    <!-- Neon Glow Background Accent -->
+    <path
+        android:fillColor="#1500E5FF"
+        android:pathData="M10,10 h240 v90 h-240 z" />
+
+    <!-- Joystick Base (Neon Cyan) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M25,65 L55,50 L85,65 L55,80 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M25,65 L25,75 L55,90 L85,75 L85,65" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M25,70 L55,85 L85,70" />
+
+    <!-- Joystick Stick & Ball (Neon Pink / Cyan) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M55,53 L55,38" />
+    <path
+        android:fillColor="#FF2A85"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="2"
+        android:pathData="M55,27m-11,0a11,11 0 1,1 22,0a11,11 0 1,1 -22,0" />
+
+    <!-- Neon Sparks / Lightning (Magenta / Pink) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,20 L40,10 L37,22 L45,14" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M50,12 L55,2 L53,13 L60,5" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M65,20 L70,10 L67,22 L75,14" />
+
+    <!-- Small Neon Deco Elements -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M22,35m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="2"
+        android:pathData="M88,30m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M92,48 L100,48 M96,44 L96,52" />
+
+    <!-- Outer Neon Frame for Text -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M102,78 L235,78 C242,78 248,72 248,65 L248,32 C248,25 242,20 235,20 L110,20" />
+
+    <!-- GAME Text (Neon Cyan) -->
+    <!-- G -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M130,28 L118,28 L118,44 L130,44 L130,36 L124,36" />
+    <!-- A -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M138,44 L143,28 L148,44 M140,38 L146,38" />
+    <!-- M -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M156,44 L156,28 L161,36 L166,28 L166,44" />
+    <!-- E -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M182,28 L174,28 L174,44 L182,44 M174,36 L180,36" />
+
+    <!-- ZONE Text (Neon Pink) -->
+    <!-- Z -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M125,52 L137,52 L125,68 L137,68" />
+    <!-- O -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M145,52 L155,52 L155,68 L145,68 Z" />
+    <!-- N -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M164,68 L164,52 L175,68 L175,52" />
+    <!-- E -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M192,52 L183,52 L183,68 L192,68 M183,60 L190,60" />
+
+</vector>
